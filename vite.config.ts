@@ -16,7 +16,7 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-const basePath = process.env.BASE_PATH;
+ const basePath = process.env.BASE_PATH;
 
 if (!basePath) {
   throw new Error(
@@ -25,7 +25,7 @@ if (!basePath) {
 }
 
 export default defineConfig({
-  base: basePath,
+  base: '/Portfolio/',
   plugins: [
     runtimeErrorOverlay(),
     ...(process.env.NODE_ENV !== "production" &&
