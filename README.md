@@ -1,6 +1,10 @@
 # Syed Mehdi Shah - Portfolio Website
 
+
+
 A modern, responsive personal portfolio website showcasing my projects, skills, and professional journey.
+
+> **⚡ Built with Vibe Coding** – This project was created using an AI-assisted development approach, combining human creativity with AI-powered code generation for rapid, high-quality results.
 
 ---
 
@@ -30,6 +34,18 @@ The website is built with a focus on **clean design**, **fast performance**, and
 - **Vite** – Next-generation build tool for fast development and bundling
 - **Tailwind CSS** – Utility-first CSS framework for custom styling
 - **Node.js** – Runtime environment for package management
+
+---
+
+## 🤖 About Vibe Coding
+
+**Vibe Coding** is an approach where developers use AI tools (like GitHub Copilot, Cursor, or ChatGPT) to assist in writing, refactoring, and optimizing code. This project was developed through a collaborative process where:
+
+- **AI Assistance** – Helped generate component structures, styling, and configuration files
+- **Human Direction** – Guided the design decisions, project structure, and feature prioritization
+- **Rapid Iteration** – Enabled quick prototyping and refinement of the user interface
+
+This approach allows for faster development cycles while maintaining code quality and best practices.
 
 ---
 
