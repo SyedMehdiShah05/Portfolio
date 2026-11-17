@@ -5,7 +5,6 @@ import {
   CalendarDays,
   ChevronRight,
   Code2,
-  Download,
   ExternalLink,
   Github,
   GraduationCap,
@@ -118,7 +117,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contact">Get in touch <ArrowUpRight size={17} /></a>
-              <a className="button button-quiet" href="/cv.pdf" download>Download CV <Download size={17} /></a>
+              <a className="button button-quiet" href="#experience">Explore my experience <ChevronRight size={17} /></a>
             </div>
             <div className="hero-meta">
               <span><MapPin size={16} /> Hazara University</span>
