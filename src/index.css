@@ -54,6 +54,9 @@ h1 em, h2 em { color: #78952c; font-family: "Playfair Display", serif; font-weig
 .intro-grid { display: grid; gap: 12%; grid-template-columns: .35fr 1fr; padding: 92px 0 98px; }
 .intro-grid h2, .section-heading h2, .language-grid h2 { font-size: clamp(31px, 4vw, 46px); letter-spacing: -.05em; line-height: 1.06; margin-bottom: 17px; max-width: 590px; }
 .intro-grid p:last-child, .section-heading > p:last-child { color: #66716d; line-height: 1.7; max-width: 620px; }
+.education-detail { border-left: 2px solid #c9e76d; display: grid; gap: 5px; margin-top: 24px; padding-left: 15px; }
+.education-detail strong { color: #78952c; font-family: "DM Mono", monospace; font-size: 11px; text-transform: uppercase; }
+.education-detail span { color: #66716d; font-size: 14px; line-height: 1.6; max-width: 620px; }
 .content-section { padding-bottom: 115px; padding-top: 115px; }
 .section-heading > p:last-child { font-size: 15px; }
 .experience-list { border-top: 1px solid #d7dfd3; margin-top: 58px; }
@@ -65,6 +68,13 @@ h1 em, h2 em { color: #78952c; font-family: "Playfair Display", serif; font-weig
 .company { color: #78952c; font-size: 13px; font-weight: 600; margin-bottom: 13px; }
 .description, .learning-item p { color: #697670; font-size: 14px; line-height: 1.65; margin-bottom: 0; max-width: 730px; }
 .experience-arrow { color: #a7b3ad; margin-top: 12px; }
+.projects-section { padding-top: 0; }
+.project-grid { display: grid; gap: 14px; grid-template-columns: repeat(5, 1fr); margin-top: 58px; }
+.project-card { background: #e7eddc; min-height: 220px; padding: 22px 18px; transition: transform .2s ease, box-shadow .2s ease; }
+.project-card:hover { box-shadow: 0 12px 25px #354a2812; transform: translateY(-4px); }
+.project-number { color: #78952c; font-family: "DM Mono", monospace; font-size: 11px; }
+.project-card h3 { font-size: 17px; letter-spacing: -.035em; margin: 45px 0 10px; }
+.project-card p { color: #697670; font-size: 13px; line-height: 1.6; margin-bottom: 0; }
 .skills-section { padding: 110px 0; }
 .skills-grid { align-items: center; display: grid; gap: 12%; grid-template-columns: .8fr 1.2fr; }
 .skill-cloud { display: flex; flex-wrap: wrap; gap: 11px; }
@@ -115,11 +125,13 @@ h1 em, h2 em { color: #78952c; font-family: "Playfair Display", serif; font-weig
   .intro-grid, .skills-grid, .learning-grid, .certification-panel, .language-grid { display: block; }
   .intro-grid .section-kicker, .section-heading .section-kicker, .language-grid .section-kicker { margin-bottom: 20px; }
   .intro-grid, .content-section { padding-bottom: 76px; padding-top: 76px; }
+  .projects-section { padding-top: 0; }
   .experience-list { margin-top: 38px; }
   .experience-card { grid-template-columns: 40px 1fr; }
   .experience-arrow { display: none; }
   .skills-section { padding: 75px 0; }
   .skill-cloud { margin-top: 38px; }
+  .project-grid { grid-template-columns: 1fr 1fr; margin-top: 38px; }
   .learning-column { margin-top: 38px; }
   .certification-panel { margin-top: 60px; }
   .certification-list { margin-top: 22px; }
