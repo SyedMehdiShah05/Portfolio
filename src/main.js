@@ -74,6 +74,9 @@ reveals.forEach(el => revealObserver.observe(el));
 
 /* ===== TYPEWRITER EFFECT ===== */
 const typewriter = document.getElementById('typewriter');
+if (typewriter) {
+  typewriter.style.color = '#3b82f6'; // Light blue
+}
 const words = [ 'Computer Technology', 'Artificial Intelligence', 'Machine Learning','Python Development', 'Problem Solving'];
 let wordIndex = 0;
 let charIndex = 0;
