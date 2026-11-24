@@ -74,7 +74,7 @@ reveals.forEach(el => revealObserver.observe(el));
 
 /* ===== TYPEWRITER EFFECT ===== */
 const typewriter = document.getElementById('typewriter');
-const words = [ 'Computer Science', 'Artificial Intelligence', 'Machine Learning','Python Development', 'Problem Solving'];
+const words = [ 'Computer Technology', 'Artificial Intelligence', 'Machine Learning','Python Development', 'Problem Solving'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
